@@ -3,7 +3,7 @@ PyTorch|AlexNet|VGG-16|InseptionV3
 ## IN this lesson we worked with popular CNN architectures like as `ALexNet`, `VGG-16`,`InseptionV3`.  
 This learning method when we use other pretraned models caled `Transfer Learning`.  
 In 2 tasks we trained on this dataset, which caled `ants vs bees`  
-![img]()
+![img](ant.png)
 1. In [task1]() we use architecture `VGG-16`,achieved next results  
     | epoch|train Loss| val Loss| train Acc | val Acc|
     | ---- |:--------:| :-----:|:----------:|-------:|
@@ -14,7 +14,7 @@ In 2 tasks we trained on this dataset, which caled `ants vs bees`
 Training complete in 247m 40s
 Best val Acc: 0.875817  
 This img is demonstration `train` and `val` loss score:  
-![img]()  
+![img](vgg.png)  
 2. In [task2]() we use architecture `Inceptionv3`,achieved next results    
 
 | epoch|train Loss| val Loss| train Acc | val Acc|  
@@ -27,5 +27,5 @@ This img is demonstration `train` and `val` loss score:
 Training complete in 117m 28s
 Best val Acc: 0.954248    
 This img is demonstration `train` and `val` loss score:  
-![img]()
+![img](incep.png)
 
