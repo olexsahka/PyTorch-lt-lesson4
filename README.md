@@ -4,7 +4,7 @@ PyTorch|AlexNet|VGG-16|InseptionV3
 This learning method when we use other pretraned models caled `Transfer Learning`.  
 In 2 tasks we trained on this dataset, which caled `ants vs bees`  
 ![img](ant.png)
-1. In [task1]() we use architecture `VGG-16`,achieved next results  
+1. In [task1](https://github.com/olexsahka/PyTorch-lt-lesson4/blob/master/lanit_4_3_2_VGG16.ipynb) we use architecture `VGG-16`,achieved next results  
     | epoch|train Loss| val Loss| train Acc | val Acc|
     | ---- |:--------:| :-----:|:----------:|-------:|
     | 21   |  0.0757  | 0.0852|   0.8648    |0.8758|
@@ -15,7 +15,7 @@ Training complete in 247m 40s
 Best val Acc: 0.875817  
 This img is demonstration `train` and `val` loss score:  
 ![img](vgg.png)  
-2. In [task2]() we use architecture `Inceptionv3`,achieved next results    
+2. In [task2](https://github.com/olexsahka/PyTorch-lt-lesson4/blob/master/Untitled3.ipynb) we use architecture `Inceptionv3`,achieved next results    
 
 | epoch|train Loss| val Loss| train Acc | val Acc|  
 | --- |---|--- |---|---|  
